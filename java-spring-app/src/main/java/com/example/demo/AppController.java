@@ -26,7 +26,7 @@ public class AppController {
 		
 		model.addAttribute("players", playersList);
 		
-		// return players.jsp from the views
+		// return players.jsp from the views.
 		return "players";
 	}
 	
