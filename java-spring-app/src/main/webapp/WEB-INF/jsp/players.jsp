@@ -8,9 +8,10 @@
 <title>Players List - Spring Boot Web Application Example</title>
 </head>
 <body>
+	<%= new java.util.Date() %>
 	<a href="/">Go home</a>
 	<h1>Team 1</h1>
-	<table>
+	<table border="1" cellpadding="10" align="center">
 		<tr>
 			<th>Name</th>
 			<th>Position</th>

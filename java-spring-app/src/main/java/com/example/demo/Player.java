@@ -1,6 +1,7 @@
 package com.example.demo;
 
 public class Player {
+	
 	private String name;
 	private String position;
 	private String country;
