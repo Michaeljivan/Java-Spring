@@ -6,12 +6,13 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Players List - Spring Boot Web Application Example</title>
+<link href="<c:url value="/resources/css/styles.css" />" rel="stylesheet">
 </head>
 <body>
 	<%= new java.util.Date() %>
 	<a href="/">Go home</a>
 	<h1>Team 1</h1>
-	<table border="1" cellpadding="10" align="center">
+	<table>
 		<tr>
 			<th>Name</th>
 			<th>Position</th>

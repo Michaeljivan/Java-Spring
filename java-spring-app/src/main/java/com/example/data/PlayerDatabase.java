@@ -1,9 +1,11 @@
-package com.example.demo;
+package com.example.data;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ContactBusiness {
+import com.example.objects.Player;
+
+public class PlayerDatabase {
 	
 	public List<Player> getPlayerList(){
 		List<Player> listPlayer = new ArrayList<>(); 
